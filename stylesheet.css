@@ -4,10 +4,13 @@ body{
 }
 #Header{
 	border: 5px solid black;
-	position: fixed;
-  	top: 0;
-  	left: 0;
-  	z-index: 999;
-  	width: 100%;
-  	height: 23px;
+
+}
+a{
+	text-decoration: none;
+
+}
+a hover{
+	color:#9a2a2a;
+	font-family: cursive;
 }
