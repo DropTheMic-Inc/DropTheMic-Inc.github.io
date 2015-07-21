@@ -19,9 +19,12 @@ h1{
 #second{
 	font-family: 'Dancing Script';
 	text-align: left;
-	background-color: 
-}
-#IMG{
-	height: 200px
-	width:300px;
+	background-color: #536878;
+	color:#99ccff; 
+	float: left;
+	height: 250px
+	width:400px;
+	border:5px solid blue;
+	padding:5px;
+	border-radius: 20px;
 }
