@@ -3,7 +3,7 @@ h1{
 	text-align: center;
 	color: #5d5e62;	
 }
-div:first-child{
+#first{
 	font-family: 'Indie Flower';
 	text-align: left;
 	background-color: #1a2f47;
