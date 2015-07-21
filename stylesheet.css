@@ -3,12 +3,13 @@ h1{
 	text-align: center;
 	color: #5d5e62;	
 }
-div p{
+div:first-child{
 	font-family: 'Indie Flower';
 	text-align: left;
 	background-color: #1a2f47;
 	color: #8f9fb2;
 	height: 200px;
 	width: 400px;
+	float: right;
 
 }
