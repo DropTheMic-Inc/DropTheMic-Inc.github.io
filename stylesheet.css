@@ -56,13 +56,21 @@ nav{
 	position: fixed;
 }
 */
-p{
+#first{
 	font-family: 'Shadows Into Light';
 }
 body{
 	background-color: black;
 	color:white;
 }
-#favorite{
+h2{
+	text-align: center;
+}
+pre{
 	font-family: 'Bad Script';
+	text-align: center;
+}
+h1{
+	font-family: 'Pacifico';
+	text-align: center;
 }
