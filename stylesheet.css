@@ -39,3 +39,17 @@ h2{
 	border: 3px solid #5d5d5d;
 	float: left;
 }
+#favorite{
+	font-family: 'Bad Script';
+	color: #292929;
+	background-color: #4099ff;
+	border: 3px solid black
+	border-radius:25px;
+	height:400px;
+	width: 250px;
+	padding: 5px
+
+}
+nav{
+	position: fixed;
+}
