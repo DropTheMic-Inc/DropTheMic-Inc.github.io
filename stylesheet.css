@@ -3,6 +3,11 @@ h1{
 	text-align: center;
 	color: #5d5e62;	
 }
+h2{
+	font-family: 'Shadows Into Light';
+	text-align: center;
+	color: #0078ff;
+}
 #first{
 	font-family: 'Indie Flower';
 	text-align: left;
@@ -27,4 +32,10 @@ h1{
 	border:5px solid blue;
 	padding:5px;
 	border-radius: 20px;
+}
+#img{
+	background-color: #3366ff
+	border-radius:20px;
+	border: 3px solid #5d5d5d;
+	float: left;
 }
