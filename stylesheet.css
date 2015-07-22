@@ -56,3 +56,13 @@ nav{
 	position: fixed;
 }
 */
+p{
+	font-family: 'Shadows Into Light';
+}
+body{
+	background-color: black;
+	color:white;
+}
+#favorite{
+	font-family: 'Bad Script';
+}
