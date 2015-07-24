@@ -79,7 +79,8 @@ h1{
 	color:#005eff;
 } 
 
-.centered-inline {
+.centered{
+	display:block;
 	margin-left: auto;
 	margin-right: auto;
 }
