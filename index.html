@@ -11,10 +11,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="script.js"></script>
+	
 </head>
 <body>
-	<nav class="row">
+	<nav class="top-bar row">
 		<img src="" alt="Yeah Poetry" class="large-2 medium-2 small-4 columns">
 		<ul class="inline-list large-6 medium-6 small-8 columns">
 			<li><a href ="#">Featured Poetry</a></li>
@@ -25,52 +25,56 @@
 			<li><a href="#">Sign Up</a></li>
 		</ul> 
 		<form class="large-4 medium-4 columns">
-			<input type ="search" placeholder="Search">
-			<a href="#" class="expand button">Search</a>
+			<input id="searchText" type ="search" placeholder="Search">
+			<a id="searchButton" href="#" class="expand button">Search</a>
 			<!-- <input type ="submit" value="Search" class="button"> -->
 		</form>
 	</nav>
-	<h1>YeahPoetry</h1>
-	<div id="first" class=" inline-list large-12 medium-12 small-12 ">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. <strong>Sed nisi</strong>. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. 
-		</p>
-		<img src="http://www.roygabayproductions.com/images/dpj__logo_85tm.jpg" height="200" width="200">
-		<p>
-			Maecenas suscipit nibh eget purus laoreet, at vestibulum turpis suscipit. Pellentesque non molestie lacus.<em>Aliquam finibus maximus erat,</em> non sodales ex. Cras feugiat fringilla dui vel blandit. Fusce tincidunt non sapien luctus maximus.
-		</p>
-	</div>
-	<h2>My favorite Poem</h2>
-	<div id="favorite">
-		<pre>
-		<p>Invictus
+	<div class="row">
+		<a href="#favorite">go to favorite</a>
+		<h1>YeahPoetry</h1>
+		<div id="first" class=" inline-list large-12 medium-12 small-12 ">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. <strong>Sed nisi</strong>. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. 
+			</p>
+			<img src="http://www.roygabayproductions.com/images/dpj__logo_85tm.jpg" height="200" width="200">
+			<p>
+				Maecenas suscipit nibh eget purus laoreet, at vestibulum turpis suscipit. Pellentesque non molestie lacus.<em>Aliquam finibus maximus erat,</em> non sodales ex. Cras feugiat fringilla dui vel blandit. Fusce tincidunt non sapien luctus maximus.
+			</p>
+		</div>
+		<h2>My favorite Poem</h2>
+		<div id="favorite">
+			<pre>
+			<p>Invictus
 
-by William Ernest Henley
+	by William Ernest Henley
 
-Out of the night that covers me,
-    Black as the Pit from pole to pole,
-I thank whatever gods may be
-    For my unconquerable soul.
+	Out of the night that covers me,
+	    Black as the Pit from pole to pole,
+	I thank whatever gods may be
+	    For my unconquerable soul.
 
-In the fell clutch of circumstance
-    I have not winced nor cried aloud.
-Under the bludgeonings of chance
-    My head is bloody, but unbowed.
+	In the fell clutch of circumstance
+	    I have not winced nor cried aloud.
+	Under the bludgeonings of chance
+	    My head is bloody, but unbowed.
 
-Beyond this place of wrath and tears
-Looms but the Horror of the shade,
-And yet the menace of the years
-    Finds, and shall find, me unafraid.
+	Beyond this place of wrath and tears
+	Looms but the Horror of the shade,
+	And yet the menace of the years
+	    Finds, and shall find, me unafraid.
 
-It matters not how strait the gate,
-    How charged with punishments the scroll.
-I am the master of my fate:
-    I am the captain of my soul.
-	</p>	
-		</pre>
+	It matters not how strait the gate,
+	    How charged with punishments the scroll.
+	I am the master of my fate:
+	    I am the captain of my soul.
+		</p>	
+			</pre>
+		</div>
 	</div>
 	<script src="foundation-5.5.2/js/vendor/jquery.js"></script>
 	<script src="foundation-5.5.2/js/foundation.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 	<script>
     	$(document).foundation();
     
