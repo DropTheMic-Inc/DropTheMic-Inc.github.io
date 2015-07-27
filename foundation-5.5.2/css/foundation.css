@@ -41,13 +41,13 @@ meta.foundation-data-attribute-namespace {
   font-family: false; }
 
 html, body {
+
+*,
+*:before,
   height: 100%; }
 
 html {
   box-sizing: border-box; }
-
-*,
-*:before,
 *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
