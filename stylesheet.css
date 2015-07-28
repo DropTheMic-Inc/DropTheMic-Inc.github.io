@@ -85,9 +85,13 @@ h1{
 	margin-right: auto;
 }
 #poetsBody{
-	
+	color: #55247b;
 }
 #Maya{
 	position: relative;
 	margin-top: auto;
+}
+#List{
+	text-align: center;
+	color:#55247b;
 }
