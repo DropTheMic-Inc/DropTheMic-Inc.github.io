@@ -89,15 +89,14 @@ h1{
 }
 #Maya{
 	position: relative;
-	margin-top: auto;
+	margin-top: 30px;
 }
 
 .my-bar {
-    position: fixed;
     width: 100%;
     height: auto;
-    background-color: rgba(255, 255, 255, .5); 
-    padding: 20px;
+    background-color:#454545;
+    opacity: 5;
 }
 
 
@@ -116,4 +115,7 @@ h1{
 #List {
 	text-align: center;
 	color:#55247b;
+}
+#www{
+	/*margin-top: 75px;*/
 }
