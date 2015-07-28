@@ -91,7 +91,29 @@ h1{
 	position: relative;
 	margin-top: auto;
 }
-#List{
+
+.my-bar {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, .5); 
+    padding: 20px;
+}
+
+
+.my-bar * {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#searchText, #searchButton {
+    height: 40px;
+    margin: 0px;
+    margin-right: 10px; 
+    padding: 0;
+}
+
+#List {
 	text-align: center;
 	color:#55247b;
 }

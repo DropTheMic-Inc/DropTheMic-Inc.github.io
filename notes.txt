@@ -1,0 +1,8 @@
+1) how about making that search button do something? use jquery to grab the "val()" of the input and use javascript to search your page. use anchor tags and id's to jump to certain parts of the page.
+2) let's clean up that top bar a bit. maybe it's a good idea to study up on "top bar" in foundation.
+	- read the documentation. 
+	- you might have to slightly change the look of your navbar for now (you can re-style it later), but you'll be able to have your bar do cool stuff.
+
+3) let's get your images looking clean.
+4) think about how your page will look on a mobile device.
+5) the fonts and poem look great.
