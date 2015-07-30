@@ -93,6 +93,7 @@ h1{
 }
 
 .my-bar {
+	padding-top: 10px;
     width: 100%;
     height: auto;
     background-color:#454545;
@@ -113,9 +114,12 @@ h1{
 }
 
 #List {
-	text-align: center;
+	
 	color:#55247b;
 }
 #www{
-	/*margin-top: 75px;*/
+	margin-top: 75px;
+}
+#directory{
+	padding-left: 275px;
 }
