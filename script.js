@@ -1,6 +1,4 @@
-var getSearch = function () {        
-        
-    clearSearch();
+var getSearch = function () {      
 
 	var searchInput = $("#searchText").val();
 
