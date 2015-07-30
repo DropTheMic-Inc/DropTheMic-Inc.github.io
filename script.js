@@ -1,5 +1,5 @@
-var getSearch = function () {      
-
+var getSearch = function () {       
+ 
 	var searchInput = $("#searchText").val();
 
 	$(".searchable:contains(" + searchInput  + ")").css("background-color", "yellow");
