@@ -4,7 +4,7 @@ var getSearch = function () {
 	var matches = $(":contains(" + searchInput  + ")");
 
 	console.log(matches.length);
-	print(matches);
+	console.log(matches);
 }
 $(document).ready(function(){
 	
