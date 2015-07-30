@@ -3,11 +3,12 @@ var getSearch = function () {
 
 	var matches = $(":contains(" + searchInput  + ")");
 
-	console.log(matches.length);
-	console.log(matches);
+	//console.log(matches.length);//
+	//console.log(matches);//
 
-	var juice = $('div').find(searchInput);
+	var juice = $('div p').find(searchInput);
 	console.log(juice);
+	console.log(juice.length);
 }
 $(document).ready(function(){
 	
