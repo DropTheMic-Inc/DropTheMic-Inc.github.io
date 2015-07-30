@@ -1,13 +1,12 @@
-var getSearch = function () {
+var getSearch = function () {        
+        
+    clearSearch();
+
 	var searchInput = $("#searchText").val();
 
-	var matches = $(":contains(" + searchInput  + ")");
+	$(".searchable:contains(" + searchInput  + ")").css("background-color", "yellow");
+};
 
-    for (var i = 0; i < matches.length; i += 1) {
-        var match = matches[i];
-        console.log(match);
-    }
-}
-$(document).ready(function(){
-	
-})
+var clearSearch = function () {
+    $(".searchable").css("background-color", "black");
+};
