@@ -4,13 +4,16 @@
     	<title>Result</title>
         <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
         <link rel="stylesheet" type="text/css" href="foundation-5.5.2/css/foundation.css">
+        <script type="text/javascript" href="foundation-5.5.2/js/vendor/mordernizr.js"></script>
 	</head>
 	<body>
         <form>
-        MESSAGE: <input type="text" name="message" value="Comments">
+        MESSAGE: <input type="text" name="message" value="Comments" id="dataToSubmit">
         </form>
         <button>Add!</button><br/>
         <div id="messages"></div>
+
+        <button onclick="makeAjaxCall()">Thug Lyfe</button>
         <script src="foundation-5.5.2/js/vendor/jquery.js"></script>
         <script type="text/javascript" src="newJava.js"></script>
 	</body>

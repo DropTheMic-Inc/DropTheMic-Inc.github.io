@@ -18,7 +18,6 @@ meta.foundation-mq-medium-only {
   width: 40.0625em; }
 
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:90.0625em) and (max-width:120em)/";
   font-family: "/only screen and (min-width:64.0625em)/";
   width: 64.0625em; }
 
@@ -31,6 +30,7 @@ meta.foundation-mq-xlarge {
   width: 90.0625em; }
 
 meta.foundation-mq-xlarge-only {
+  font-family: "/only screen and (min-width:90.0625em) and (max-width:120em)/";
   width: 90.0625em; }
 
 meta.foundation-mq-xxlarge {
@@ -41,13 +41,13 @@ meta.foundation-data-attribute-namespace {
   font-family: false; }
 
 html, body {
-
-*,
-*:before,
   height: 100%; }
 
 html {
   box-sizing: border-box; }
+
+*,
+*:before,
 *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
