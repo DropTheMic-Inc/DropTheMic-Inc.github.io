@@ -8,25 +8,23 @@ var getSearch = function () {
 var clearSearch = function () {
     $(".searchable").css("background-color", "black");
 };//
-function submitEmail () {
-	var email = $("#emailInput").val();
-	$.ajax({
-		type: "POST",
-		url: "http://localhost:3000/join",
-		data: { email: email },
-		success: function (data) {console.log(data); alert("Success")}
-	})
-}
-var url = "http://yeahpoetry.azurewebsites.net/join";
+
+var url = "http://yeahpoetry.azurewebsites.net/";
 
 function submitEmail () {
 	var email = $("#emailInput").val();
-	if(isValidEmailAddress(email)) {
+	var name = $("#nameInput").val();
+	if(name && isValidEmailAddress(email)) {
 		$.ajax({
 		type: "POST",
-		url: url,
-		data: { email: email },
-		success: function (data) {console.log(data); alert("Success");},
+		url: url + "join",
+		data: { 
+			name: name,
+			email: email 
+		},
+		success: function (data) {
+			alert("Success");
+		},
 		error: function (error) {
 			var code = error.status;
 			switch (code) {
@@ -46,6 +44,7 @@ function submitEmail () {
 		});
 
 		$("#emailInput").val("");
+		$("#nameInput").val("");
 	} else {
 		alert("That's not a valid email address!")
 	}
