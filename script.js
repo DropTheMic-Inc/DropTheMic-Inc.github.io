@@ -8,9 +8,10 @@ var getSearch = function () {
 	$(".searchable:contains(" + searchInput  + ")").css("background-color", "yellow");
 };
 
-var clearSearch = function () {
-    $(".searchable").css("background-color", "black");
-};//
+$('#searchText').mousedown(function(){
+	$(".searchable").css("background-color", "black");
+});
+    
 
 var url = "http://yeahpoetry.azurewebsites.net/";
 
