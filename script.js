@@ -1,3 +1,6 @@
+$(document).ready(function() {
+	$('span').addClass('searchable')
+})
 var getSearch = function () {       
  
 	var searchInput = $("#searchText").val();
